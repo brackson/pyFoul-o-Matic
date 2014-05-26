@@ -1,5 +1,3 @@
-
-
 #/usr/bin/env python
 
 # Made by hnldesign <http://www.hnldesign.nl/>
@@ -49,5 +47,5 @@ def generate_insult():
                    choice(nouns_1) + ' ' + choice(adjectives_2)])
 
 if __name__ == '__main__':
-        "you're a " + ', a '.join(generate_insult() for w in range(10)) + '.' # example usage
-
+        # example usage
+        "you're a " + ', a '.join(generate_insult() for w in range(10)) + '.'
